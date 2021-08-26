@@ -1,15 +1,71 @@
-<!---
-### Create a page according to the layout shown below
-
-![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
-
-#### Problems for exercise 2 in the layout
-
-- Each parent container has width of 600px and border of 1px;
-- Each children box has width 180px and height 100px as well as margin of 10px;
-- Each child box which is having border has border-width 1px.
-- Note in the first container the boxes do not have any border.
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
---->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New assignment 3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="center">
+  
+    <header>
+      <div>
+        <h1 class="header">The box model, Box-sizing and Box- shadow</h1>
+      </div>
+      <hr>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h2 class="second-header">Exercise1</h2>
+          
+          <div class="box"></div>
+          <div class="margin"></div>
+           <div class="align"><span class="dot-content"> </span>
+            <span>content</span>
+            <span class="dot-padding"> </span>
+            <span>padding</span>
+            <span class="dot-border"> </span>
+            <span>border</span>
+            <span class="dot-margin"> </span>
+            <span>margin</span></div>
+          </div>
+        <hr>
+      </section>
+      <section>
+        <div>
+          <h3 class="third-header">Exercise 2</h3>
+          <p class="font">no border in these boxes</p></div>
+          <div class="container">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+            <div class="box-3"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h4>1px border in these boxes.</h4>
+          <div class="container-1">
+            <div class="box-4"></div>
+            <div class="box-5"></div>
+            <div>
+              <div class="box-6"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div>
+          <h5>1px border on these boxes but they are in same line</h5>
+          <div class="container-2">
+            <div class="box-7"></div>
+            <div class="box-8"></div>
+            <div class="box-9"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
